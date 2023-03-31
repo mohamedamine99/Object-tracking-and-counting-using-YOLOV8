@@ -1,0 +1,3 @@
+filterpy
+scikit-image
+lap
