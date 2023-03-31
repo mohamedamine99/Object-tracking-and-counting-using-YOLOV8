@@ -439,7 +439,7 @@ class YOLOv8_ObjectCounter(YOLOv8_ObjectDetector):
                 frame = self.default_display(**display_args)
             
             elif display == 'custom':
-                frame == self.custom_display(colors, **display_args)
+                frame == self.custom_display( **display_args)
 
             # Display FPS on frame
             frame = cv2.putText(frame,f"FPS : {fps:,.2f}" , 
