@@ -1,4 +1,4 @@
-# Object-tracking-and-couting-using-YOLOV8
+# Object-tracking-and-counting-using-YOLOV8
 
 This repository contains the code for an object detection, tracking and counting project using the YOLOv8 object detection algorithm and the SORT (Simple Online and Realtime Tracking) algorithm for object tracking. The project has been implemented using object-oriented programming principles in Python.
 
