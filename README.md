@@ -8,3 +8,7 @@ This repository contains the code for an object detection, tracking and counting
 * **Object tracking**: The SORT algorithm has been used for tracking the detected objects in real-time. SORT is a simple algorithm that performs well in real-time tracking scenarios.
 * **Object counting**: The project also includes a module for counting the number of objects detected in a given image or video.
 * **OOP approach**: The project has been implemented using object-oriented programming principles, making it modular and easy to understand.
+
+## Navigating this repository
+
+* [YOLOv8_Object_Detection_procedural.ipynb](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/blob/main/YOLOv8_Object_Detection_procedural.ipynb) : Contains code for object detection using some of the YOLOv8 variants 
