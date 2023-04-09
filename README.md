@@ -11,6 +11,8 @@ This repository contains the code for an object detection, tracking and counting
 
 ## Navigating this repository
 
+### Code files
+
 * [YOLOv8_Object_Detection_procedural.ipynb](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/blob/main/YOLOv8_Object_Detection_procedural.ipynb) : The notebook provides code for object detection using YOLOv8, including different variants with different architectures and trade-offs between speed and accuracy. The code follows a procedural approach rather than object-oriented programming to make it simpler and easier to understand for beginners.
 
 * [YOLOv8_Object_Detection_OOP.ipynb](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/blob/main/YOLOv8_Object_Detection_OOP.ipynb) : This notebook provides code for object detection using YOLOv8, including different variants with different architectures and trade-offs between speed and accuracy. The code follows an object oriented approach rather than procedural programming to make it easier to understand, modify and maintain.
@@ -23,3 +25,18 @@ This repository contains the code for an object detection, tracking and counting
 
 * [sort.py](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/blob/main/sort.py) : a python module for object tracking using the SORT algorithm (SORT : Simple Online and Realtime Tracking) 
   * This script is a slightly modified version from the [original sort module](https://github.com/abewley/sort) by [abewley](https://github.com/abewley) , with some imports removed in order to fix some compatibility issues regarding pytorch and matplotlib backends.
+
+
+### Results directories
+
+* [results - Object Counting](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/tree/main/results%20-%20Object%20Counting) : This directory contains the video results for object counting in the following format : [yolo variant]--[original video name].avi
+
+* [GIFs](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/tree/main/GIFs) : contains results for object detection and object counting on videos in GIF format.
+
+* [results - custom display](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/tree/main/results%20-%20custom%20display) : This directory contains both video and image results for object detection using custom display. The reason for this custom display is that it provides a simple alternative to the YOLOv8 native display which can be sometimes cumbersome. 
+
+* [results - default display](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/tree/main/results%20-%20custom%20display) : This directory contains both video and image results for object detection using YOLOv8 deafault display. 
+
+* [test vids](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/tree/main/test%20vids) : a directory that contains all testing videos.
+* [test imgs](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/tree/main/test%20imgs) : a directory that contains all testing images.
+
