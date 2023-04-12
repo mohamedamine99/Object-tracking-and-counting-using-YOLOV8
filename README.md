@@ -5,6 +5,7 @@
 </p>
 
 This repository contains the code for an object detection, tracking and counting using the YOLOv8 algorithm by ultralytics for object detection and the SORT (Simple Online and Realtime Tracking) algorithm for object tracking. The project provides code for both procedural and object-oriented programming implementations in Python.
+The OOP implementation is designed to be easily maintainable and customizable, so it can be further used for custom object detection, tracking and counting.
 
 For more details check the ultralytics YOLOv8 Github [repository](https://github.com/ultralytics/ultralytics) and the YOLOv8 python [documentation](https://docs.ultralytics.com/usage/python/#train).
 
@@ -30,6 +31,7 @@ For more details check the ultralytics YOLOv8 Github [repository](https://github
 
 * [yolo_detect_and_count.py](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/blob/main/yolo_detect_and_count.py) : a python script that contains well documented definitions for the `YOLOv8_ObjectDetector` and `YOLOv8_ObjectCounter` classes used respectively for detecting and counting objects.
 
+
 * [sort.py](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/blob/main/sort.py) : a python module for object tracking using the SORT algorithm (SORT : Simple Online and Realtime Tracking) 
   * This script is a slightly modified version from the [original sort module](https://github.com/abewley/sort) by [abewley](https://github.com/abewley) , with some imports removed in order to fix some compatibility issues regarding pytorch and matplotlib backends.
 
@@ -47,3 +49,7 @@ For more details check the ultralytics YOLOv8 Github [repository](https://github
 * [test vids](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/tree/main/test%20vids) : a directory that contains all testing videos.
 * [test imgs](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/tree/main/test%20imgs) : a directory that contains all testing images.
 
+### Other files
+
+* [requirements.txt](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/blob/main/requirements.txt) : Contains the modules required by the sort module
+* [coco.names](https://github.com/mohamedamine99/Object-tracking-and-counting-using-YOLOV8/blob/main/coco.names) : Contains the mabels of the 80 default classes for the COCO dataset.
