@@ -54,8 +54,11 @@ class YOLOv8_ObjectDetector:
         self.model_name = model_file.split('.')[0]
         self.results = None
 
+        # if no labels are provided then use default COCO names 
         if labels == None:
             self.labels = self.model.names
+        else:
+            self.labels = labels
 
     def predict_img(self, img, verbose=True):
         """
