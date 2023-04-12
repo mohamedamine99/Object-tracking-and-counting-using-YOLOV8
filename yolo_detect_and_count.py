@@ -22,7 +22,8 @@ class YOLOv8_ObjectDetector:
     ------------
         model_file (str): Path to the YOLOv8 model file or yolo model variant name in ths format: [variant].pt
         labels (list[str], optional): A list of class labels for the model. If None, uses the default labels from the model file.
-        classes (list[str], optional): Alias for labels. Deprecated.
+        classes (list[int], optional): The classes we want to detect, use it to exclude certain classes from being detected,
+            by default all classes in labels are detectable.
         conf (float, optional): Minimum confidence threshold for object detection.
         iou (float, optional): Minimum IOU threshold for non-max suppression.
 
